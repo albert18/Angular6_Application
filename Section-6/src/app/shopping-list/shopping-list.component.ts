@@ -17,7 +17,4 @@ export class ShoppingListComponent implements OnInit {
     this.ingredients = this.slService.getIngredients();
   }
 
-  onIngredientAdded(ingredient: Ingredient) {
-    this.ingredients.push(ingredient);
-  }
 }

@@ -20,7 +20,7 @@ export class NewAccountComponent {
     this.accountsService.addAccount(accountName, accountStatus);
     // this.logginService.logStatusChange(accountStatus);
     // this.logginService.logStatusChange(accountStatus);
-    // this.logginService.logStatusChange(accountStatus);
+
 
   }
 }
